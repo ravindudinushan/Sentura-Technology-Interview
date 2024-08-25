@@ -9,8 +9,8 @@ import java.util.List;
 public interface UserService {
     void saveUser(UserDTO dto);
     void updateUser(UserDTO dto);
-    void deleteUser(String employeeCode);
+    void deleteUser(String userCode);
     List<UserDTO> getAllUser();
-    CustomDTO employeeIdGenerate();
-    User searchUserCode(String employeeCode);
+    CustomDTO userIdGenerate();
+    User searchUserCode(String userCode);
 }
