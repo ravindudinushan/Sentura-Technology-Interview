@@ -4,7 +4,6 @@ import lk.ijse.demo.dto.CustomDTO;
 import lk.ijse.demo.dto.UserDTO;
 import lk.ijse.demo.entity.User;
 import lk.ijse.demo.service.UserService;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;
