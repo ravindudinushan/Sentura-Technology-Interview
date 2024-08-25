@@ -23,7 +23,7 @@ public class User {
         @Column(columnDefinition = "LONGTEXT")
         private String picture;
         private String  directory;
-        private Object  metadata;
+        private String  metadata;
         private String  tags;
         private boolean is_suspended;
         private boolean is_bot;
